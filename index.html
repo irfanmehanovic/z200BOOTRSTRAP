@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pocetna</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="hover.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Online Store</h1>      
+    <p>Mission, Vission & Values</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><p class="navP" onclick="pocetna()">Pocetna</p></li>
+        <li><p class="navP" onclick="oNama()">O nama</p></li>
+        <li><p class="navP" onclick="galerija()">Galerija</p></li>
+        <li><p class="navP" onclick="auta()">Auta</p></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                <li><input type="text" placeholder="Search.." class="search" id="search"><button onclick="search()">Submit</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="sekcija-pocetna" class="sekcija-pocetna">
+  <h1>Automobilizam</h1><br>
+  <p>Automobilizam je naziv za sve oblike športskih nadmetanja u kojima se rabe motorna vozila na četiri kotača.
+  Natjecanja po klasama dijelimo na utrke trkaćih, športskih, turističkih i prototipova automobila. Utrke dijelimo prema radnom obujmu motora. U automobilizmu natjecanja obuhvaćaju brzinske utrke i ocjensku vožnju. U brzinskim utrkama su trkališne, cestovne, brdske i rekordne utrke.</p><br>
+    <img class="naslovna" src="slike/naslovna.jpg" alt="slika">
+  <hr>
+  
+</section><br>
+
+<section id="sekcija-o-nama" class="sekcija-o-nama">
+    <h1>Povijest</h1><br>
+    <p>Na svijetu je prva automobilistička utrka održana je 1894. na cesti Pariz – Rouen. Prvi automobilistički klub utemeljen je 1895. godine i bio je to L’Automobile Club de France. Međunarodni savez automobilskih klubova (Association Internationale des Automobiles Clubs Reconnus, AIACR) osnovan 1904. u Parizu, a naziv je promijenio 1946. u FIA (Fédération Internationale de l’Automobile). Hrvatska je išla ukorak sa svijetom. U hrvatske krajeve automobilizam stiže vrlo brzo. Već travnja 1902. kroz Hrvatsku prolazi dionica automobilističke utrke Nica – Opatija. Prva hrvatska športska automobilistička društva osnovana su na dvama krajevima Hrvatske, 25. travnja 1906. (drugi datiraju nadnevak osnivanja na 1. lipnja[2]) Prvi hrvatski automobilni klub u Zagrebu "da bude društveno, strukovno i znanstveno stjecište za širenje i unapređivanje automobilnoga športa u Hrvatskoj", a u Splitu je 1907. osnovan Auto-club Spalato. Početak djelovanja automobilističkog strukovnog saveza je 13. travnja 1912. kad je pri Hrvatskome športskom savezu osnovana Sekcija za automobilizam. Relacija Zagreb - Varaždin - Zagreb bila je prva automobilistička utrka za Prvenstvo Hrvatske i Slavonije, a održana je 8. rujna 1912. godine. Prvo stručno glasilo automobilističke športske grane Hrvatski automobilni list izašlo je siječnja 1914. godine. U dijelovima Hrvatske u Kraljevini SHS djeluje zagrebačka sekcija Automobilskoga kluba Kraljevine SHS. Automobilističkim i motociklističkim klubovima u Hrvatskoj rad je ujedinjen nakon 1945., pa je 1948. osnovan Auto-moto savez Hrvatske. 5. listopada 1991. osnovan je Hrvatski auto i moto športski savez, koji je član FIA-e od 1992. godine. Automobilistički i karting savez odvojili su se od motociklističkoga saveza te je u Zagrebu 1997. osnovan Hrvatski auto i karting savez. [1]
+
+  Najveće automobilističko natjecanje u Hrvatskoj održavalo se na stazi Preluk u Opatiji od 1946. do 1977., Velika nagrada Jadrana.</p>
+  <hr>
+  </section><br>
+
+<section id="sekcija-galerija" class="sekcija-galerija">
+   <h1>Slike</h1><br><br>
+  <div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika1.jpg" alt="slika" class="slikica hvr-grow"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika2.jpg" alt="slika" class="slikica hvr-shrink"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika3.jpg" alt="slika" class="slikica hvr-pulse"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika4.jpg" alt="slika" class="slikica hvr-push"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika5.jpg" alt="slika" class="slikica hvr-pop"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika6.jpg" alt="slika" class="slikica hvr-bounce-in"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika7.jpg" alt="slika" class="slikica hvr-bounce-out"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika8.jpg" alt="slika" class="slikica hvr-rotate"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="slike/slika9.jpg" alt="slika" class="slikica hvr-wobble-horizontal"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div> 
+  </section><br>
+
+  <section id="sekcija-auta" class="sekcija-auta">
+    <p id="demo"></p>
+  <h1>AUTA</h1><br><br>
+  <div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary bmw" id="bmw">
+        <div class="panel-heading">BMW</div>
+        <div class="panel-body"><img src="slike/bmw1.jpg" alt="slika" class="slikica hvr-grow"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary bmw" id="bmw">
+        <div class="panel-heading">BMW</div>
+        <div class="panel-body"><img src="slike/bmw2.jpg" alt="slika" class="slikica hvr-shrink"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary bmw" id="bmw">
+        <div class="panel-heading">BMW</div>
+        <div class="panel-body"><img src="slike/bmw3.jpg" alt="slika" class="slikica hvr-pulse"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary vw" id="vw"> 
+        <div class="panel-heading">VW</div>
+        <div class="panel-body"><img src="slike/vw1.jpg" alt="slika" class="slikica hvr-push"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary vw" id="vw">
+        <div class="panel-heading">VW</div>
+        <div class="panel-body"><img src="slike/vw2.jpg" alt="slika" class="slikica hvr-pop"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary vw" id="vw">
+        <div class="panel-heading">VW</div>
+        <div class="panel-body"><img src="slike/vw3.jpg" alt="slika" class="slikica hvr-bounce-in"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary kia" id="kia">
+        <div class="panel-heading">KIA</div>
+        <div class="panel-body"><img src="slike/kia1.jpg" alt="slika" class="slikica hvr-bounce-out"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary kia" id="kia">
+        <div class="panel-heading">KIA</div>
+        <div class="panel-body"><img src="slike/kia2.jpg" alt="slika" class="slikica hvr-rotate"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary kia">
+        <div class="panel-heading">KIA</div>
+        <div class="panel-body"><img src="slike/kia3.jpg" alt="slika" class="slikica hvr-wobble-horizontal"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div> 
+  </section><br>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>

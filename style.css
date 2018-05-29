@@ -1,0 +1,24 @@
+.naslovna{
+	width: 100%;
+}
+.slikica{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #7bedc3;
+	background-color: #8cf442; 
+}
+section{
+	text-align: center;
+	display: none;
+}
+.navP{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	padding-left: 10px; 
+}
+.search{
+	margin-top: 10px;
+}
